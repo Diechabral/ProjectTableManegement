@@ -14,5 +14,8 @@ To be able to complete the challange I used React, coding using TypeScript and s
 
 
 ## Complete Experience on desktop
+![full descktop expirance ](https://user-images.githubusercontent.com/91792621/139665438-fb966bb3-53a9-4200-b21e-a552e8c86b4a.gif)
+
+## Complete experience on mobile
 
 
