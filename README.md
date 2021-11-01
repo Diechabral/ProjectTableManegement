@@ -8,9 +8,11 @@ To be able to complete the challange I used React, coding using TypeScript and s
 ## Editing a register
 ![editing 2222 ](https://user-images.githubusercontent.com/91792621/139664024-ca9476f1-70e2-47a4-8097-41156498cec4.gif)
 
-##Removing a register
+## Removing a register
+![removing](https://user-images.githubusercontent.com/91792621/139664389-f6c5a55e-aa0f-44ee-a44f-e209a8fe64e8.gif)
 
 
-## Complete Experience
+
+## Complete Experience on desktop
 
 
