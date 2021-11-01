@@ -1,5 +1,5 @@
 # Nutcahce Challange 
-To be able to complete the challange I used React, coding using TypeScript and styled using CSS3
+To be able to complete the challange I used React, coding using TypeScript and styled using CSS3.
 
 
 ## New register
