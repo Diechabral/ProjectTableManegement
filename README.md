@@ -5,5 +5,9 @@ To be able to complete the challange I used React, coding using TypeScript and s
 ## Making an new register
 ![Making an new register](https://user-images.githubusercontent.com/91792621/139663085-b6f734b1-6ff9-400a-b7c1-c9b9514e3e2a.gif)
 
+## Editing a register
+![Editing a register](https://user-images.githubusercontent.com/91792621/139663342-8bf7718b-dca5-47e5-92d5-794aba409f5c.gif)
+
+
 ## Complete Experience
 ![test-nutcache-aplication-diegocabral](https://user-images.githubusercontent.com/91792621/139616685-5529df8c-18e5-4755-86f5-ff3fd80c8ec5.gif)
