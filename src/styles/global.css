@@ -1,0 +1,310 @@
+ html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: var(--gray);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+body::-webkit-scrollbar-button {
+    display:none;
+}
+
+a, a:focus, a:active {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.AppContainer {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.AppContentMask {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: -28px;
+    z-index: 0;
+}
+
+.AppContentMask .Mask {
+    background-color: var(--primary);
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -58px;
+}
+
+.AppContentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 10;
+    gap: 20px;
+}
+
+.AppContentHeader img {
+    width: 100%;
+    max-width: 440px;
+}
+
+.AppContent {
+    position: relative;
+    background-color: var(--white);
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+    z-index: 1;
+}
+
+.AppList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 380px;
+    min-height: 380px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+
+.AppList::-webkit-scrollbar {
+    background-color:#fff;
+    width:16px
+}
+
+.AppList::-webkit-scrollbar-track {
+    background-color:#fff
+}
+.AppList::-webkit-scrollbar-track:hover {
+    background-color:#f4f4f4
+}
+
+.AppList::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+    border:5px solid #fff
+}
+.AppList::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+    border:4px solid #f4f4f4
+}
+
+.AppList::-webkit-scrollbar-button {display:none}
+
+
+.AppListHeader {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 0.7fr) minmax(0, 1fr) minmax(0, 0.7fr) 75px;
+    text-transform: uppercase;
+    color: var(--gray-dark);
+    font-weight: 600;
+    border-bottom: 2px solid var(--gray);
+    padding: 15px 8px;
+}
+
+.AppListGrid {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 0.7fr) minmax(0, 1fr) minmax(0, 0.7fr) 75px;
+    background-color: var(--gray);
+    padding: 15px 8px;
+}
+
+.AppListGrid > div {
+    line-break: anywhere;
+}
+
+.AppListGrid:nth-child(2n) {
+    background-color: var(--white);
+}
+
+.AppListGrid > div > h1 {
+    display: none;
+    color: var(--gray-dark);
+    font-size: 18px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.AppListGrid > div > h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.AppListGrid > div > p{
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.AppButton {
+    color: var(--gray-dark);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.AppButtonPrimary {
+    background-color: var(--primary);
+}
+
+.AppButtonDanger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.AppButtonLg {
+    padding: 10px 25px;
+}
+
+.AppButtonXs {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.AppButtonRemove button{
+    margin-left: 0;
+}
+
+.AppButton:hover {
+    opacity: 0.9;
+}
+
+.AppTextDanger {
+    color: var(--danger);
+}
+
+.AppFormGroup {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.AppFormGroup label {
+    width: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.AppFormGroup input, .AppFormGroup select {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+.AppFormGroup select {
+    padding: 0.54rem;
+}
+
+.AppFormGroup select option{
+    padding: 1rem;
+}
+
+.AppAlertDanger {
+    background-color: var(--danger);
+    color: var(--white);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.AppAlertDanger ul{
+    list-style: none;
+    margin-block-start: 5px;
+    margin-block-end: 0em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.AppAlertDanger ul li{
+    font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+    .AppContainer {
+        max-width: 976px;
+    }
+}
+
+@media (max-width: 797px) {
+    .AppContentHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AppList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AppListHeader {
+        display: none;
+    }
+
+    .AppListGrid {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        background-color: transparent;
+        padding: 15px 8px;
+        align-items: flex-start;
+        border-bottom: 1px solid var(--gray);
+    }
+
+    .AppListGrid > div > h1 {
+        display: block;
+    }
+
+    .AppButtonRemove button{
+        margin-top: 15px;
+    }
+}
